@@ -6,3 +6,49 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  .img-logo img {
+    width: 250px;
+  }
+
+  .nav-links {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+#hero {
+  background-image: url(./../images/landing.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+
+  .hero-text {
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    translate: -50% -50%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 15vh;
+  }
+  p {
+    font-size: 4vh;
+  }
+}
